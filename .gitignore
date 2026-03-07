@@ -1,0 +1,21 @@
+  GNU nano 8.4                       .gitignore                                 
+# Ignore simulation waveforms and build artifacts
+*.vcd
+*.wlf
+sim_build/
+build/
+
+# Editor and OS files
+.vscode/
+*.swp
+*~
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Python/test artifacts
+__pycache__/
+.pytest_cache/
+
