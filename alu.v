@@ -3,7 +3,7 @@ input signed [31:0]a,b,
 input [3:0]alu_control,
 output reg zero,
 output  slt,sltu,
-output reg [31:0]alu_result
+ output reg [31:0]alu_result
 );
 reg [31:0] resultreg;
 wire [31:0]temp,sum;
